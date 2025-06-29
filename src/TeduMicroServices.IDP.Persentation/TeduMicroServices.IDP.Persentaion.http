@@ -1,0 +1,6 @@
+@TeduMicroServices.IDP.Persentaion_HostAddress = http://localhost:5269
+
+GET {{TeduMicroServices.IDP.Persentaion_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
