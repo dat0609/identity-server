@@ -13,4 +13,8 @@
         <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="9.0.1" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\TeduMicroservice.IDP.Infra\TeduMicroservice.IDP.Infra.csproj" />
+    </ItemGroup>
+
 </Project>

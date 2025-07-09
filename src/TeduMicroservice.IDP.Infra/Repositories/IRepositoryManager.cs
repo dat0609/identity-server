@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore.Storage;
 using TeduMicroservice.IDP.Entities;
+using TeduMicroservice.IDP.Infra.Repositories;
 
 namespace TeduMicroservice.IDP.Common.Repositories;
 

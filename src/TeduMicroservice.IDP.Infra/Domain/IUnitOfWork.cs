@@ -1,4 +1,4 @@
-﻿namespace TeduMicroservice.IDP.Common.Domain;
+﻿namespace TeduMicroservice.IDP.Infra.Domain;
 
 public interface IUnitOfWork : IDisposable
 {

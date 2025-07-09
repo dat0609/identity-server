@@ -1,8 +1,9 @@
-﻿using System.Linq.Expressions;
+﻿using System.Data;
+using System.Linq.Expressions;
+using Dapper;
 using Microsoft.EntityFrameworkCore;
-using TeduMicroservice.IDP.Context;
 
-namespace TeduMicroservice.IDP.Common.Domain;
+namespace TeduMicroservice.IDP.Infra.Domain;
 
 public class RepositoryBase<T, K> : IRepositoryBase<T, K> where T : EntityBase<K>
 {
@@ -36,6 +37,23 @@ public class RepositoryBase<T, K> : IRepositoryBase<T, K> where T : EntityBase<K
         var items = FindByCondition(expression, trackChanges);
         items = includeProperties.Aggregate(items, (current, includeProperty) => current.Include(includeProperty));
         return items;
+    }
+
+    public async Task<IReadOnlyList<T>> QueryAsync(string sql, 
+        object? param, 
+        CommandType? commandType = CommandType.StoredProcedure, 
+        IDbTransaction? transaction = null, 
+        int commandTimeou = 2000)
+    {
+        return (await _dbContext.Connection.QueryAsync<T>(sql, param, transaction, 30, CommandType.StoredProcedure))
+            .AsList();
+    }
+
+    public async Task<int> ExecuteAsync(string sql, object? param, CommandType? commandType = CommandType.StoredProcedure, 
+        IDbTransaction? transaction = null, 
+        int commandTimeout = 2000)
+    {
+        return await _dbContext.Connection.ExecuteAsync(sql, param, transaction, commandTimeout, commandType);
     }
 
     public async Task<T?> GetByIdAsync(K id) => 

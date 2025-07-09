@@ -10,171 +10,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="391990c4-a046-4675-b6c4-0f4075254270" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TeduMicroServices.IDP.Persentation/AssemblyReference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TeduMicroServices.IDP.Persentation/TeduMicroServices.IDP.Persentation.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Common/Domain/EntityBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Common/Domain/IEntityBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Common/Domain/IRepositoryBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Common/Domain/IUnitOfWork.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Common/Domain/RepositoryBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Common/Domain/UnitOfWork.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Common/Repositories/IPermissionRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Common/Repositories/IRepositoryManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Common/Repositories/PermissionRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Common/Repositories/RepositoryManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Entities/Configuration/PermissionConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Entities/Permission.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TeduMicroservice.dir/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TeduMicroservice.dir/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TeduMicroservice.dir/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TeduMicroservice.dir/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TeduMicroservice.dir/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TeduMicroservice.dir/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/SystemConstants.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Context/TeduIdentityContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Context/TeduIdentityContextFactory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/Configuration/RoleConfiguration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/ModelBuilderExtension.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/User.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extensions/CookiePolicyExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extensions/HostingExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extensions/IdentityProfileService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Extensions/ServiceExtension.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/Identity/20250604134651_Init.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/Identity/20250604134651_Init.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/Identity/TeduIdentityContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/IdentityServer/ConfigurationDb/20250604131845_Init.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/IdentityServer/ConfigurationDb/20250604131845_Init.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/IdentityServer/ConfigurationDb/ConfigurationDbContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/IdentityServer/PersistedGrantDb/20250604131545_Init.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/IdentityServer/PersistedGrantDb/20250604131545_Init.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/IdentityServer/PersistedGrantDb/PersistedGrantDbContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Account/AccessDenied.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Account/AccessDenied.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Account/Create/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Account/Create/Index.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Account/Create/InputModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Account/Login/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Account/Login/Index.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Account/Login/InputModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Account/Login/LoginOptions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Account/Login/ViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Account/Logout/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Account/Logout/Index.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Account/Logout/LoggedOut.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Account/Logout/LoggedOut.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Account/Logout/LoggedOutViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Account/Logout/LogoutOptions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Ciba/All.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Ciba/All.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Ciba/Consent.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Ciba/Consent.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Ciba/ConsentOptions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Ciba/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Ciba/Index.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Ciba/InputModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Ciba/ViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Ciba/_ScopeListItem.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Consent/ConsentOptions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Consent/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Consent/Index.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Consent/InputModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Consent/ViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Consent/_ScopeListItem.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Device/DeviceOptions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Device/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Device/Index.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Device/InputModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Device/Success.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Device/Success.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Device/ViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Device/_ScopeListItem.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Diagnostics/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Diagnostics/Index.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Diagnostics/ViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Extensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/ExternalLogin/Callback.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/ExternalLogin/Callback.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/ExternalLogin/Challenge.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/ExternalLogin/Challenge.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Grants/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Grants/Index.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Grants/ViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Home/Error/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Home/Error/Index.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Home/Error/ViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/IdentityServerSuppressions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Index.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Log.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Redirect/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Redirect/Index.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/SecurityHeadersAttribute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/ServerSideSessions/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/ServerSideSessions/Index.cshtml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Shared/_Layout.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Shared/_Nav.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Shared/_ValidationSummary.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Telemetry.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/TestUsers.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/_ViewImports.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/_ViewStart.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/keys/is-signing-key-B4EEF851813050EEAA35EC4469B8AD60.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tempkey.jwk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/site.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/site.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/duende-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/js/signin-redirect.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/js/signout-redirect.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap4-glyphicons/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap4-glyphicons/css/bootstrap-glyphicons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap4-glyphicons/css/bootstrap-glyphicons.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap4-glyphicons/fonts/glyphicons/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap4-glyphicons/fonts/glyphicons/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap4-glyphicons/fonts/glyphicons/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap4-glyphicons/fonts/glyphicons/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap4-glyphicons/fonts/glyphicons/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap4-glyphicons/maps/glyphicons-fontawesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap4-glyphicons/maps/glyphicons-fontawesome.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap4-glyphicons/maps/glyphicons-fontawesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/jquery/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/jquery/dist/jquery.slim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/jquery/dist/jquery.slim.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/lib/jquery/dist/jquery.slim.min.map" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TeduMicroServices.IDP.Persentation/Controllers/PermissionController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TeduMicroservice.IDP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TeduMicroservice.IDP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeduMicroservice.IDP.sln" beforeDir="false" afterPath="$PROJECT_DIR$/TeduMicroservice.IDP.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeduMicroServices.IDP.Persentation/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeduMicroServices.IDP.Persentation/TeduMicroServices.IDP.Persentation.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeduMicroServices.IDP.Persentation/TeduMicroServices.IDP.Persentation.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeduMicroServices.IDP.Persentation/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Common/Domain/EntityBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP.Infra/Domain/EntityBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Common/Domain/IEntityBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP.Infra/Domain/IEntityBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Common/Domain/IRepositoryBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP.Infra/Domain/IRepositoryBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Common/Domain/IUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP.Infra/Domain/IUnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Common/Domain/RepositoryBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP.Infra/Domain/RepositoryBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Common/Domain/UnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP.Infra/Domain/UnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Common/Repositories/IPermissionRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP.Infra/Repositories/IPermissionRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Common/Repositories/IRepositoryManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP.Infra/Repositories/IRepositoryManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Common/Repositories/PermissionRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP.Infra/Repositories/PermissionRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Common/Repositories/RepositoryManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP.Infra/Repositories/RepositoryManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Common/SystemConstants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP.Infra/Common/SystemConstants.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Context/TeduIdentityContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP.Infra/TeduIdentityContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Context/TeduIdentityContextFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP.Infra/TeduIdentityContextFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Entities/Configuration/PermissionConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP.Infra/Entities/Configuration/PermissionConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Entities/Configuration/RoleConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP.Infra/Entities/Configuration/RoleConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Entities/ModelBuilderExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP.Infra/Entities/ModelBuilderExtension.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Entities/Permission.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP.Infra/Entities/Permission.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP.Infra/Entities/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Extensions/HostingExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Extensions/HostingExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Extensions/ServiceExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Extensions/ServiceExtension.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Migrations/20250629025929_CreatePermission.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Migrations/20250629025929_CreatePermission.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Migrations/Identity/20250604134651_Init.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Migrations/Identity/20250604134651_Init.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Migrations/Identity/TeduIdentityContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP/Migrations/Identity/TeduIdentityContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeduMicroservice.IDP/TeduMicroservice.IDP.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeduMicroservice.IDP/TeduMicroservice.IDP.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +67,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/12fdf06debca972f1ef0703fc0ab3850d7e12795c99de1a5160e609429c6c9/ProfileDataRequestContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/TeduMicroServices.IDP.Persentation/AssemblyReference.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/TeduMicroServices.IDP.Persentation/Controllers/WeatherForecastController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/TeduMicroservice.IDP.Infra/TeduIdentityContextFactory.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -216,19 +84,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.TeduMicroservice.IDP: SelfHost.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.TeduMicroservice.IDP: SelfHost.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.TeduMicroservice.IDP: SelfHost">
     <configuration name="TeduMicroServices.IDP.Persentaion: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/TeduMicroServices.IDP.Persentation/TeduMicroServices.IDP.Persentation.csproj" />
@@ -285,7 +153,8 @@
       <option name="presentableId" value="Default" />
       <updated>1750338806319</updated>
       <workItem from="1750338808230" duration="3681000" />
-      <workItem from="1751164929241" duration="2724000" />
+      <workItem from="1751164929241" duration="6794000" />
+      <workItem from="1752065493139" duration="464000" />
     </task>
     <servers />
   </component>
@@ -304,10 +173,10 @@
           <line>97</line>
           <properties documentPath="D:\workspace\TeduMicroservice.IDP\src\TeduMicroservice.IDP\Extensions\ServiceExtension.cs" containingFunctionPresentation="Method 'ConfigureIdentity'">
             <startOffsets>
-              <option value="4193" />
+              <option value="4191" />
             </startOffsets>
             <endOffsets>
-              <option value="4277" />
+              <option value="4275" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />

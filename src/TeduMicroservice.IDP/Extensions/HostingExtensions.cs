@@ -1,6 +1,7 @@
 using Serilog;
-using TeduMicroservice.IDP.Common.Domain;
 using TeduMicroservice.IDP.Common.Repositories;
+using TeduMicroservice.IDP.Infra.Domain;
+using TeduMicroservice.IDP.Infra.Repositories;
 using TeduMicroservice.IDP.Services.EmailService;
 using TeduMicroServices.IDP.Presentation;
 

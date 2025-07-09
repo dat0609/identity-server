@@ -1,4 +1,4 @@
-﻿namespace TeduMicroservice.IDP.Common;
+﻿namespace TeduMicroservice.IDP.Infra.Common;
 
 public static class SystemConstants
 {

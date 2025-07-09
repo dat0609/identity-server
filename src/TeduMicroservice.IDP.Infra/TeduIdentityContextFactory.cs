@@ -1,7 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
+using Microsoft.Extensions.Configuration;
 
-namespace TeduMicroservice.IDP.Context;
+namespace TeduMicroservice.IDP.Infra;
 
 public class TeduIdentityContextFactory: IDesignTimeDbContextFactory<TeduIdentityContext>
 {

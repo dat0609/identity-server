@@ -1,6 +1,4 @@
-﻿using TeduMicroservice.IDP.Context;
-
-namespace TeduMicroservice.IDP.Common.Domain;
+﻿namespace TeduMicroservice.IDP.Infra.Domain;
 
 public class UnitOfWork : IUnitOfWork
 {

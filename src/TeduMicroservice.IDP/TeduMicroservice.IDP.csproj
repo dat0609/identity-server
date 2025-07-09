@@ -27,6 +27,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <ProjectReference Include="..\TeduMicroservice.IDP.Infra\TeduMicroservice.IDP.Infra.csproj" />
 	  <ProjectReference Include="..\TeduMicroServices.IDP.Persentation\TeduMicroServices.IDP.Persentation.csproj" />
 	</ItemGroup>
 </Project>

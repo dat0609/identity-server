@@ -4,8 +4,8 @@ using Microsoft.OpenApi.Models;
 using Serilog;
 using Serilog.Sinks.Elasticsearch;
 using TeduMicroservice.IDP.Common;
-using TeduMicroservice.IDP.Context;
 using TeduMicroservice.IDP.Entities;
+using TeduMicroservice.IDP.Infra;
 
 namespace TeduMicroservice.IDP.Extensions;
 
